@@ -12,6 +12,7 @@ export const config = {
 
 const saveFile = async (file) => {
   try {
+    console.log("Facio la save",{ file });
     const stream = fs.createReadStream(file.filepath);
     const options = {
       pinataMetadata: {
