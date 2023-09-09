@@ -25,7 +25,7 @@ export default function Home() {
     } catch (e) {
       console.log(e);
       setUploading(false);
-      alert("Trouble uploading file");
+      alert("Trouble fsdl.sl,.dswkl file");
     }
   };
 
