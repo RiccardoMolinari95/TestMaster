@@ -6,7 +6,7 @@ import Files from "@/components/Files";
 export default function Home() {
   const [file, setFile] = useState("");
   const [cid, setCid] = useState("");
-  const [uploading, setUploading] = useState(true);
+  const [uploading, setUploading] = useState(false);
 
   const inputFile = useRef(null);
 
